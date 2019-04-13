@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backound"
+    tools:context=".fragment.About">
+
+    <RelativeLayout
+        android:background="@color/colorPrimaryDark"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="#000"
+            android:id="@+id/about_avator"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:id="@+id/about_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:text="000"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/about_avator"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

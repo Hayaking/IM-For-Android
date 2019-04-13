@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_marginBottom="1dp">
+    <ImageView
+        android:id="@+id/his_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#fff"/>
+
+
+    <TextView
+        android:id="@+id/res_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="姓名"
+        android:layout_toEndOf="@id/his_avatar"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bt_add"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorPrimary"
+        android:text="添加"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:onClick="add"
+        />
+
+
+</RelativeLayout>
